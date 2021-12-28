@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>TEST</h1>
+</header>
+
+<nav>
+London<br>
+Paris<br>
+Tokyo<br>
+</nav>
+
+<section>
+
+</body>
+    <form action="/demo/demo_form.asp">
+    <fieldset>
+	<legend>Personal information:</legend>
+    &nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" value="male" checked>Male
+    <br>
+    &nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" value="female">Female
+    <br/>
+    <br/>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+    </form> 
+
+</body>
+
+</section>
+
+<footer>
+Copyright W3Schools.com
+</footer>
+
+</html>
